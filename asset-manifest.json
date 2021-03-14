@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-lifecycle-http/static/css/main.3e5dd1c8.chunk.css",
+    "main.js": "/react-lifecycle-http/static/js/main.a30664a6.chunk.js",
+    "main.js.map": "/react-lifecycle-http/static/js/main.a30664a6.chunk.js.map",
+    "runtime-main.js": "/react-lifecycle-http/static/js/runtime-main.4388397c.js",
+    "runtime-main.js.map": "/react-lifecycle-http/static/js/runtime-main.4388397c.js.map",
+    "static/js/2.bc9fab3d.chunk.js": "/react-lifecycle-http/static/js/2.bc9fab3d.chunk.js",
+    "static/js/2.bc9fab3d.chunk.js.map": "/react-lifecycle-http/static/js/2.bc9fab3d.chunk.js.map",
+    "static/js/3.012fb44f.chunk.js": "/react-lifecycle-http/static/js/3.012fb44f.chunk.js",
+    "static/js/3.012fb44f.chunk.js.map": "/react-lifecycle-http/static/js/3.012fb44f.chunk.js.map",
+    "index.html": "/react-lifecycle-http/index.html",
+    "static/css/main.3e5dd1c8.chunk.css.map": "/react-lifecycle-http/static/css/main.3e5dd1c8.chunk.css.map",
+    "static/js/2.bc9fab3d.chunk.js.LICENSE.txt": "/react-lifecycle-http/static/js/2.bc9fab3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4388397c.js",
+    "static/js/2.bc9fab3d.chunk.js",
+    "static/css/main.3e5dd1c8.chunk.css",
+    "static/js/main.a30664a6.chunk.js"
+  ]
+}
