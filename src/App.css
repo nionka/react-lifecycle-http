@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form {
+  display: flex;
+  align-items: flex-end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form span {
+  display: block;
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form label {
+  margin-right: 20px;
+}
+
+.form input, .form button {
+  height: 30px;
+  padding: 5px 10px;
+}
+
+.clock-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clock-item {
+  margin-right: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.clock-item button {
+  align-self: flex-end;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+}
+
+.clock{
+  width: 120px;
+  height: 120px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid black; 
 }
 
-.App-link {
-  color: #61dafb;
+.clock:before{
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 999;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clock .hour,
+.clock .min,
+.clock .sec{
+  position: absolute;
+}
+
+.clock .hour, .hr{
+  width: 60px;
+  height: 60px;
+}
+.clock .min, .mn{
+  width: 80px;
+  height: 80px;
+}
+.clock .sec, .sc{
+  width: 100px;
+  height: 100px;
+}
+
+.hr, .mn, .sc{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.hr:before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 30px;
+  background-color: black;
+  z-index: 10;
+  border-radius: 6px 6px 0 0;
+}
+.mn:before{
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 40px;
+  background-color: black;
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}
+.sc:before{
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 50px;
+  background-color: red;
+  z-index: 12;
+  border-radius: 6px 6px 0 0;
 }
